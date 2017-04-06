@@ -1,96 +1,28 @@
-# MY-EYP-Page
-This is my personal guide for latest technologies. Please see section wise 
-This is official documentation for My EYP conversiona with People Manager:
-Goal has been disscussed and milestone given for 2017 years
-# 1. All Skill which rated is 0, should be at least rating 1 in comming month. Below is skills which is rated 0 in EYP tool
+# NgCollection
 
-# DOM Abstraction/Utility
-a. MooTools
-b. YUI
-c. Underscore.js
-d. Greensock Animation Platform (GASP)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-# Templating Engines
-a. dust.js
+## Development server
 
-# Structural/Organizational Frameworks (MV*)
-a. Marionette.js
-b. Ember.js
-c. Angular 2
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Preprocessors
-a. TypeScript
-b.CoffeeScript
-c. LESS
+## Code scaffolding
 
-# Client-Side Scripting APIs
-a. Shadow DOM
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-# 3rd Party APIs
-a. Twitter
-b. YouTube
-c. Google+
-d. Google Analytics
-e. Omniture
-f. FourSquare
-g. Flickr
-h. AddThis
-i. BazzarVoice ( Reviews and Ratings )
-J. Pinterest
+## Build
 
-# Server-Side Languages
-a. Apache
-b. C#
-c. Ruby
-d. Server Side Javascript
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-# Servers/Libraries/Frameworks
+## Running unit tests
 
-a. Apache Config and Vhosts
-b. SQL Server
-c. Ruby on Rails
-d. ASP.NET
-e. VB.NET
-f. CouchDB
-g. MongoDB
-h. PostgreSQL
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-# Version Control
-a. Subversion / Git Br_idge
+## Running end-to-end tests
 
-# Applications
-a. Maya (Modeling, texturing, dynamics, lighting, animating, rendering)
-b. Cinema 4D
-c. SketchUp
-d. Illustrator
-e. After Effects (motion graphics)
-f. Conerstone (Subversion)
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
 
-# Concepts/Implementations
-a. Multimedia Integration (V_ideo, Mp3, 3D)
-b. Non-linear /experiential interactivity
-# Processes
-a. Prototyping
-# CMS
-a)	Adobe CQ5 / AEM 6
-b)	MarketLive
-c)	Interwoven Teamsite
-d)	Silver Stripe
+## Further help
 
-# Object Oriented/Patterns/Practices
-
-a. MVP Pattern
-
-# Mobile Development
-a. iOS (Objective C)
-b. Android (J2ME)
-# Static Site Generators
-a. Roots.cx
-b. anoc
-# Client-Side Languages
-a. ECMAScript 6 / JavaScript 2.0+
-b. Testing 3.0 and that
-
-
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
