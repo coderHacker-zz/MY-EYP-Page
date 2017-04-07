@@ -5,13 +5,8 @@ webpackJsonp([1,4],{
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: false
+    production: true
 };
 //# sourceMappingURL=environment.js.map
 
@@ -25,7 +20,7 @@ exports = module.exports = __webpack_require__(55)();
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "li {\r\n  list-style: none;\r\n  background: #d1703c;\r\n  color: #fff;\r\n  height: 0;\r\n  line-height: 2em;\r\n  margin: 0;\r\n  padding: 0 0.5em;\r\n  overflow: hidden;\r\n  width: 10em;\r\n}\r\n\r\nli.show {\r\n  height: 2em;\r\n  margin: 2px 0;\r\n}\r\n\r\nh1 {\r\n  -webkit-animation-duration: 3s;\r\n          animation-duration: 3s;\r\n  -webkit-animation-name: slidein;\r\n          animation-name: slidein;\r\n  color: green\r\n}\r\n\r\n@-webkit-keyframes slidein {\r\n  from {\r\n    margin-left: 100%;\r\n    width: 300%; \r\n  }\r\n\r\n  to {\r\n    margin-left: 0%;\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n@keyframes slidein {\r\n  from {\r\n    margin-left: 100%;\r\n    width: 300%; \r\n  }\r\n\r\n  to {\r\n    margin-left: 0%;\r\n    width: 100%;\r\n  }\r\n}", ""]);
 
 // exports
 
@@ -38,7 +33,7 @@ module.exports = module.exports.toString();
 /***/ 169:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\r\n  {{title}}\r\n</h1>\r\n<ul>\r\n  <li class=\"text\" *ngFor=\"let item of items | async\">\r\n    {{item.$value}}\r\n  </li>\r\n</ul>"
+module.exports = "<h1>\r\n  {{title}}\r\n</h1>\r\n<ul>\r\n  <li class=\"show\" *ngFor=\"let item of items | async\">\r\n    {{item.$value}}\r\n  </li>\r\n</ul>\r\n<button id=\"add-to-list\">Add a list item</button>"
 
 /***/ }),
 
